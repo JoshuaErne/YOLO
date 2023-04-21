@@ -16,9 +16,9 @@ In this project, I have implemented YOLO-v1 using 10K street scene images to det
 
 # Results
 
-<img src=imgs/output.png> <p></p>
-<img src=imgs/allboundingboxes.png> <p></p>
-<img src=imgs/postlowconfsupression.png> <p></p>
+<img src=Images/output.png> <p></p>
+<img src=Images/allboundingboxes.png> <p></p>
+<img src=Images/postlowconfsupression.png> <p></p>
 
 # Observation
 Given the substantially lower training loss compared to the validation loss and the significantly bigger training mAP compared to the validation map, the main issue is the dataset is too small to work on and splitting the small dataset leads to overfitting. We tried  altering the network architecture, drastically increased the number of epochs (took for ever with colab) and we also changed the optimizer to perform with different learning rates and weight decays but it didnt work. 
